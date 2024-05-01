@@ -7,12 +7,13 @@ import { getFirestore } from 'firebase/firestore'
 
 
 const firebaseConfig = {
-    apiKey:process.env.REACT_APP_apiKey,
-    authDomain:process.env.REACT_APP_authDomain ,
-    projectId: process.env.REACT_APP_projectId,
-    storageBucket: process.env.REACT_APP_storageBucket,
-    messagingSenderId: process.env.REACT_APP_messagingSenderId,
-    appId:process.env.REACT_APP_appId
+     apiKey: "AIzaSyCvxcPGdbKiYsEEXiAr_xhsvUOc2j5c1rs",
+  authDomain: "chatbox-2057e.firebaseapp.com",
+  projectId: "chatbox-2057e",
+  storageBucket: "chatbox-2057e.appspot.com",
+  messagingSenderId: "533052163156",
+  appId: "1:533052163156:web:c1ecddd5607a7e298a19c1",
+  measurementId: "G-28L38S5KW7"
   };
 
 // Initialize Firebase
